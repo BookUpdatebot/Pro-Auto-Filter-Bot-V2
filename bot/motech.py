@@ -1,5 +1,5 @@
 # Update
-MT_BOT_UPDATES = "t.me/Mo_tech_YT"
+ᴀʟɪꜰ ʟɪʙʀᴀʀʏ = "https://telegram.dog/ebooks_malayalam_ebooks"
 # Your Main Channel
-BOT_UPDATES = "t.me/Mo_Tech_YT"
+ᴇɴɢʟɪsʜ ᴇʙᴏᴏᴋs = "https://telegram.dog/ebooks_english_ebooks"
 
