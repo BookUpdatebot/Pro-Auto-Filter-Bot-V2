@@ -62,7 +62,10 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url=f"https://t.me/{MT_CHANNEL_USERNAME}")
+                    InlineKeyboardButton("ᴀʟɪꜰ ʟɪʙʀᴀʀʏ url=f"https://t.me/ebooks_malayalam_ebooks")
+                ]
+                    InlineKeyboardButton("ᴇɴɢʟɪsʜ ᴇʙᴏᴏᴋs url=f"https://telegram.dog/ebooks_english_ebooks")
+
                 ]
             )
         for filter in filters: # iterating through each files
@@ -209,7 +212,8 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo= MASSAGE_PHOTO,
-                caption=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬Movie Name :-</b> <code>{query}</code>",
+                caption=f"<b>📚𝐓𝐎𝐓𝐀𝐋 𝐁𝐎𝐎𝐊𝐒 :- {(len_results)} </b>\n<b>Name :-< 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐎𝐎𝐊 𝐍𝐀𝐌𝐄📚/b> <code>{query}</code>" 𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗗𝗼𝘄𝗻 𝗕𝘂𝘁𝘁𝗼𝗻𝘀 𝗧𝗼 𝗔𝗰𝗰𝗲𝘀𝘀 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 
+                ബുക്കുകൾ  ലഭിക്കുന്നതിനായി താഴെ കാണുന്ന ബട്ടണുകളിൽ ക്ലിക്ക് ചെയ്യുക👇,
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
